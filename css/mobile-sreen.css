@@ -1,0 +1,2229 @@
+@media only screen and (max-width: 321px) {
+    .logo {
+        height: 3rem;
+        width: 4.5rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 120px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+        font-size: 1rem !important;
+    }
+
+    .banner-header-text {
+        font-size: 2rem !important;
+        font-weight: 900;
+        line-height: 1.3rem !important;
+    }
+
+    .home .mt-3 {
+        margin-top: 2rem !important;
+    }
+
+    .header-para {
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-video {
+        width: 265px;
+        height: 150px;
+        margin-top: 2rem !important;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: .8rem !important;
+        cursor: pointer;
+        padding: .5rem .7rem !important;
+    }
+
+    .button-container-margin {
+        margin-top: 2rem !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        width: 120px !important;
+    }
+
+    .btn-primary {
+        width: 120px !important;
+    }
+
+    .volume-toggle {
+        position: absolute;
+        top: 45px;
+        /* Adjust the top position as needed */
+        right: 15px;
+        /* Adjust the right position as needed */
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+        background-color: #000000;
+        /* Background color of the toggle button */
+        border-radius: 50%;
+        /* Make it circular */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 15px;
+        /* Adjust the font size as needed */
+        z-index: 1;
+        /* Ensure the icon is above the iframe */
+    }
+
+    /* About Us */
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem !important;
+        padding: 2rem 2rem !important;
+        margin: 1rem;
+    }
+
+
+    .about-us h5 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .about-us hr {
+        border: 0.05rem solid white;
+        opacity: .5;
+    }
+
+    .about-us .about-bold-text {
+        font-size: 1rem !important;
+        text-align: start;
+    }
+
+    .about-us .about-light-text {
+        font-size: .9rem !important;
+        text-align: justify;
+    }
+
+    .btn-about-us {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-top: 2rem !important;
+        width: 100%;
+    }
+
+    /*-Feautered Images-*/
+    .featured-work-img {
+        border-radius: 1rem !important;
+    }
+
+    .featured-section {
+        margin: 0 0rem !important;
+    }
+
+    .featured-section h1 {
+        text-align: center;
+    }
+
+    .featured-all-projects button {
+        margin-top: 2rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .btn {
+        font-size: .7rem !important;
+        padding: .5rem 1rem !important;
+    }
+
+    /*-B2B and B2C Videos-*/
+    .about-us .B2B-bold-text {
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    .B2B-text {
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+
+    .btn-know-more {
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+
+    .B2B-margin-top {
+        margin-top: 2rem !important;
+    }
+
+    /*-Who We Helped Explain-*/
+    .helped-margin {
+        margin-bottom: 3rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .slick-slide {
+        margin: 0 .8rem;
+    }
+
+    .helped-text {
+        font-size: 1.2rem !important;
+        text-align: center !important;
+    }
+
+    .container-padding-helped {
+        padding: 0 2rem !important;
+    }
+
+    .container-padding {
+        padding: 0 0 !important;
+    }
+
+    /*-Learn-*/
+    .learn-text {
+        margin-top: 1rem;
+        font-size: 1rem !important;
+        font-weight: 500;
+        margin-bottom: 3rem !important;
+    }
+
+    .learn-last {
+        margin-bottom: -1rem !important;
+    }
+
+    /* What they say about us */
+
+    .btn-arrow {
+        display: none !important;
+    }
+
+    .comments-text-bold {
+        font-size: 1.2rem !important;
+        font-weight: 900;
+    }
+
+    .comments-text {
+        font-size: 1rem !important;
+    }
+
+    /* Social Media Styles */
+    .social-text {
+        font-size: 1.8rem !important;
+        font-weight: 900 !important;
+        line-height: 2.5rem !important;
+        color: #FFF !important;
+        margin-bottom: 2rem !important;
+        text-align: center !important;
+    }
+
+    .mobile-top-margin {
+        margin-top: 5rem;
+    }
+
+    /* Contact Us */
+    .contact-textarea {
+        margin-top: 1.6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    /*footer*/
+    .footer-head {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        text-align: center;
+    }
+
+    .footer-address {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-ul {
+        text-align: center !important;
+    }
+
+    .footer-ul-3 {
+        text-align: center !important;
+        margin-top: -5rem !important;
+    }
+
+    .footer-para {
+        font-family: 'Urbanist', sans-serif !important;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .footer-margin-section-2 {
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-margin-section-3 {
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-margin-section-3-first {
+        margin-top: -3rem !important;
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-hr {
+        display: block !important;
+        margin-top: 3rem !important;
+        height: .1rem !important;
+        opacity: .6;
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-link-hover:hover {
+        color: #007BFF;
+    }
+
+    .last-footer-section {
+        margin-top: 5rem !important;
+    }
+
+    .footer-link {
+        color: #000;
+    }
+
+    .footer-hr {
+        display: none;
+    }
+
+    /* About Us Page  */
+    .banner-header-about-text {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        line-height: 1.3rem !important;
+    }
+
+    .who-we-are-head {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        line-height: 2rem !important;
+        margin-top: 1rem !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-2 {
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        line-height: 2rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 3rem !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-img {
+        margin-top: 1rem !important;
+        margin-left: 2rem !important;
+    }
+
+    .what-motivates-our-actions-para-1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        line-height: 2rem !important;
+        margin-top: 2rem !important;
+        text-align: center !important;
+    }
+
+    .what-motivates-our-actions-para-2 {
+        margin-top: 2rem !important;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        line-height: 2rem !important;
+        margin-left: .5rem !important;
+        text-align: center !important;
+    }
+
+    .chit-chat {
+        color: #FFF !important;
+        font-weight: 900 !important;
+        font-size: 2rem !important;
+        line-height: 2.6rem !important;
+
+    }
+
+    .accordion-margin {
+        margin-top: 3rem !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../images/minus.png) !important;
+        transform: rotate(-180deg) !important;
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0 !important;
+        width: 1.25rem !important;
+        height: 1.25rem !important;
+        margin-left: auto !important;
+        content: "" !important;
+        background-image: url(../images/plus.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: 1.25rem !important;
+        transition: transform .2s ease-in-out !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #000 !important;
+        font-weight: 600 !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125) !important;
+    }
+
+    .accordion-button {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+    }
+
+    /*Learn Page*/
+    .banner-header-learn-text {
+        font-size: 1.5rem !important;
+        font-weight: 900 !important;
+        line-height: 1rem;
+    }
+
+    .learn-search {
+        padding: .5rem 2rem !important;
+        border: 1px solid #000 !important;
+        margin-bottom: 5rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .learn-search::placeholder {
+        color: #000 !important;
+    }
+
+    .pagination {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learn-pagination {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+        background-color: #FFF !important;
+        margin-right: .5rem !important;
+        font-weight: 600;
+    }
+
+    .learn-pagination:hover {
+        background-color: #007BFF !important;
+        color: #FFF !important;
+        border: none !important;
+    }
+
+    .GotIdea {
+        padding: 2rem !important;
+    }
+
+    .GotIdea-text {
+        font-size: 2.5rem !important;
+        font-weight: 900 !important;
+        color: #FFF !important;
+        text-align: center;
+        margin: 0;
+    }
+
+    .GotIdea-button {
+        font-size: 1rem !important;
+        padding: .5rem 2rem !important;
+        margin-top: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .image-size {
+        width: 10rem !important;
+    }
+
+    .home-video {
+        padding: 3rem 0rem 0rem 0rem !important;
+    }
+
+    .image_margin {
+        margin-top: 1rem !important;
+        transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+            opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .image_margin:hover {
+        transform: scale(1.2);
+    }
+
+    .chit-chat {
+        font-size: 1.8rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .pagination {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 479px) {
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 120px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+
+    .banner-header-text {
+        font-size: 2.7rem !important;
+        font-weight: 900;
+        line-height: 1.5rem !important;
+    }
+
+    .home .mt-3 {
+        margin-top: 2rem !important;
+    }
+
+    .home-section .high-res .header-para{
+        padding: 0 !important;
+        margin: 2.5rem 0 0 0 !important;
+    }
+
+    .header-para {
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-video {
+        width: 350px;
+        height: 200px;
+        margin-top: 2rem !important;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: .8rem !important;
+        cursor: pointer;
+        padding: .5rem .7rem !important;
+    }
+
+    .button-container-margin {
+        margin-top: 3rem !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        width: 120px !important;
+    }
+
+    .btn-primary {
+        width: 120px !important;
+    }
+
+    .volume-toggle {
+        position: absolute;
+        top: 45px;
+        right: 25px;
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 15px;
+        z-index: 1;
+    }
+
+    /* About Us */
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 15% 15% !important;
+    }
+
+    .about-us h5 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .about-us hr {
+        border: 0.05rem solid white;
+        opacity: .5;
+    }
+
+    .about-us .about-bold-text {
+        font-size: 1.5rem !important;
+        text-align: start;
+    }
+
+    .about-us .about-light-text {
+        font-size: 1rem !important;
+        text-align: justify;
+    }
+
+    .btn-about-us {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-top: 2rem !important;
+        width: 100% !important;
+    }
+
+    /*-Feautered Images-*/
+    .featured-work-img {
+        border-radius: 1rem !important;
+    }
+
+    .featured-section {
+        margin: 0 1rem !important;
+    }
+
+    .featured-section h1 {
+        text-align: center;
+    }
+
+    /*-B2B and B2C Videos-*/
+    .about-us .B2B-bold-text {
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    .B2B-text {
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+
+    .btn-know-more {
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+
+    .B2B-margin-top:nth-child(2) {
+        margin-top: 2rem !important;
+    }
+
+    /*-Who We Helped Explain-*/
+    .helped-margin {
+        margin-bottom: 3rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .slick-slide {
+        margin: 0 1rem;
+    }
+
+    .helped-text {
+        font-size: 2rem !important;
+        text-align: center !important;
+        font-weight: 900 !important;
+    }
+
+    .container-padding-helped {
+        padding: 0 2rem !important;
+    }
+
+    /*-Learn-*/
+    .learn-text {
+        margin-top: 1rem;
+        font-size: 1.2rem !important;
+        font-weight: 500;
+        margin-bottom: 3rem !important;
+    }
+
+    .learn-last {
+        margin-bottom: -1rem !important;
+    }
+
+    .learn-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    /* What they say about us */
+    .btn-arrow {
+        display: none !important;
+    }
+
+    .comments-text-bold {
+        font-size: 1.5rem !important;
+        font-weight: 900;
+    }
+
+    .comments-text {
+        font-size: 1rem !important;
+    }
+
+    /* Social Media Styles */
+    .social-text {
+        font-size: 1.8rem !important;
+        font-weight: 900 !important;
+        line-height: 3rem !important;
+        color: #FFF !important;
+        text-align: left;
+    }
+
+    .mobile-top-margin {
+        margin-top: 5rem;
+    }
+
+    /* Contact Us */
+    .contact-textarea {
+        margin-top: 1.6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    /*footer*/
+    .footer-head {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        text-align: center;
+    }
+
+    .footer-address {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-para {
+        font-family: 'Urbanist', sans-serif !important;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        text-align: center;
+    }
+
+    .footer-ul {
+        text-align: center !important;
+    }
+
+    .footer-ul-3 {
+        text-align: center !important;
+        margin-top: -5rem !important;
+    }
+
+    .footer-margin-section-2 {
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-margin-section-3 {
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-margin-section-3-first {
+        margin-top: -3rem !important;
+        margin-bottom: 1.4rem !important;
+    }
+
+    .footer-hr {
+        display: block !important;
+        margin-top: 3rem !important;
+        height: .1rem !important;
+        opacity: .6;
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-link-hover:hover {
+        color: #007BFF;
+    }
+
+    .last-footer-section {
+        margin-top: 5rem !important;
+    }
+
+    .footer-link {
+        color: #000;
+    }
+
+    .footer-hr {
+        display: none;
+    }
+
+
+    /* About Us Page  */
+    .banner-header-about-text {
+        font-size: 2.7rem !important;
+        font-weight: 900 !important;
+        line-height: 2rem !important;
+    }
+
+    .who-we-are-head {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        line-height: 2rem !important;
+        margin-top: 1rem !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-2 {
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        line-height: 2rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 3rem !important;
+        text-align: center !important;
+    }
+
+    .who-we-are-para-img {
+        margin-top: 1rem !important;
+        margin-left: 2rem !important;
+    }
+
+    .what-motivates-our-actions-para-1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        line-height: 2rem !important;
+        margin-top: 2rem !important;
+        text-align: center !important;
+    }
+
+    .what-motivates-our-actions-para-2 {
+        margin-top: 2rem !important;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        line-height: 2rem !important;
+        margin-left: .5rem !important;
+        text-align: center !important;
+    }
+
+    .about-us {
+        border-radius: 1rem !important;
+        padding: 3rem 3rem !important;
+    }
+
+    .chit-chat {
+        color: #FFF;
+        font-weight: 900;
+        font-size: 2rem !important;
+        line-height: 3rem;
+    }
+
+    .accordion-margin {
+        margin-top: 3rem !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../images/minus.png) !important;
+        transform: rotate(-180deg);
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: auto;
+        content: "";
+        background-image: url(../images/plus.png) !important;
+        background-repeat: no-repeat;
+        background-size: 1.3rem;
+        transition: transform .2s ease-in-out;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #000 !important;
+        font-weight: 600 !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125) !important;
+    }
+
+    .accordion-button {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+    }
+
+    /*Learn Page*/
+    .banner-header-learn-text {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        line-height: 1.5rem;
+    }
+
+    .learn-search {
+        padding: .5rem 2rem !important;
+        border: 1px solid #000 !important;
+        margin-bottom: 5rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .learn-search::placeholder {
+        color: #000 !important;
+    }
+
+    .pagination {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learn-pagination {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+        background-color: #FFF !important;
+        margin-right: .5rem !important;
+        font-weight: 600;
+    }
+
+    .learn-pagination:hover {
+        background-color: #007BFF !important;
+        color: #FFF !important;
+        border: none !important;
+    }
+
+    .GotIdea-text {
+        font-size: 2.5rem !important;
+        font-weight: 900 !important;
+        color: #FFF !important;
+        text-align: center;
+    }
+
+    .GotIdea-button {
+        font-size: 1.3rem !important;
+        padding: .5rem 2rem !important;
+        margin-top: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Service Page */
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service-section {
+        flex: 1 0 calc(100% - 20px) !important;
+        margin: 1rem .6rem;
+        padding: 1.8rem 1.3rem;
+        box-sizing: border-box;
+    }
+
+    .image-size {
+        width: 10rem !important;
+    }
+
+    .verticle-padding {
+        padding: 1rem 0rem !important;
+    }
+
+    .btn-verticle-padding {
+        padding: 1rem .5rem !important;
+    }
+
+    .home-video {
+        padding: 3rem 0rem 0rem 0rem !important;
+    }
+
+    .image_margin {
+        margin-top: 1rem !important;
+        transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+            opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .image_margin:hover {
+        transform: scale(1.2);
+    }
+
+    .GotIdea {
+        padding: 2rem !important;
+        margin: 0 !important;
+    }
+
+    .pagination{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 120px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+
+    .banner-header-text {
+        font-size: 2.7rem !important;
+        font-weight: 900;
+        line-height: 1.5rem !important;
+    }
+
+    .home .mt-3 {
+        margin-top: 2rem !important;
+    }
+
+    .header-para {
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-video {
+        width: 400px;
+        height: 230px;
+        margin-top: 2rem !important;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: .8rem !important;
+        cursor: pointer;
+        padding: .5rem .7rem !important;
+    }
+
+    .button-container-margin {
+        margin-top: 3rem !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        width: 120px !important;
+    }
+
+    .btn-primary {
+        width: 120px !important;
+    }
+
+    .volume-toggle {
+        position: absolute;
+        top: 45px;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 15px;
+        z-index: 1;
+    }
+
+    /* About Us */
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 15% 15% !important;
+    }
+
+    .about-us h5 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .about-us hr {
+        border: 0.05rem solid white;
+        opacity: .5;
+    }
+
+    .about-us .about-bold-text {
+        font-size: 1.5rem !important;
+        text-align: start;
+    }
+
+    .about-us .about-light-text {
+        font-size: 1rem !important;
+        text-align: justify;
+    }
+
+    .btn-about-us {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-top: 2rem !important;
+        width: 100%;
+    }
+
+    /*-Feautered Images-*/
+    .featured-work-img {
+        border-radius: 1rem !important;
+    }
+
+    .featured-section {
+        margin: 0 1rem !important;
+    }
+
+    .featured-section h1 {
+        text-align: center;
+    }
+
+    /*-B2B and B2C Videos-*/
+    .about-us .B2B-bold-text {
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    .B2B-text {
+        font-size: 1.3rem !important;
+        text-align: center !important;
+    }
+
+    .btn-know-more {
+        font-size: 1rem !important;
+        width: 100% !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .B2B-margin-top {
+        margin-top: 2rem !important;
+    }
+
+    /*-Who We Helped Explain-*/
+    .helped-margin {
+        margin-bottom: 3rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .slick-slide {
+        margin: 0 .8rem;
+    }
+
+    .helped-text {
+        font-size: 1.5rem !important;
+        text-align: center !important;
+    }
+
+    .container-padding-helped {
+        padding: 0 2rem !important;
+    }
+
+    /*-Learn-*/
+    .learn-text {
+        margin-top: 1rem;
+        font-size: .8rem !important;
+        font-weight: 500;
+    }
+
+    .learn-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    /* What they say about us */
+    .comments-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+    }
+
+    .comments-text {
+        font-size: 1.2rem !important;
+    }
+
+    /*footer*/
+    .footer-head {
+        font-size: 1.6rem !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+
+    .footer-address {
+        margin-bottom: 0 !important;
+        text-align: center !important;
+    }
+
+    .footer-para {
+        font-family: 'Urbanist', sans-serif !important;
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .footer-margin-section-2 {
+        margin-bottom: 1rem !important;
+        text-align: center !important;
+    }
+
+    .footer-margin-section-3 {
+        margin-bottom: 1rem !important;
+        text-align: center !important;
+    }
+
+    .footer-margin-section-3-first {
+        margin-top: 2.5rem !important;
+        margin-bottom: 1rem !important;
+        text-align: center !important;
+    }
+
+    .footer-link-hover:hover {
+        color: #007BFF;
+    }
+
+    .last-footer-section {
+        margin-top: 5rem !important;
+        text-align: center !important;
+    }
+
+    .footer-link {
+        color: #000;
+    }
+
+    /* About Us Page  */
+    .banner-header-about-text {
+        font-size: 2.7rem !important;
+        font-weight: 900 !important;
+        line-height: 2rem !important;
+    }
+
+    .who-we-are-head {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .who-we-are-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .who-we-are-para-2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .who-we-are-para-img {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .what-motivates-our-actions-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    .what-motivates-our-actions-para-2 {
+        margin-top: 2rem;
+        font-size: .98rem !important;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-left: .5rem !important;
+    }
+
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 3rem 3rem !important;
+    }
+
+    .chit-chat {
+        color: #FFF;
+        font-weight: 900;
+    }
+
+    .accordion-margin {
+        margin-top: 3rem !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../images/minus.png) !important;
+        transform: rotate(-180deg);
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: auto;
+        content: "";
+        background-image: url(../images/plus.png) !important;
+        background-repeat: no-repeat;
+        background-size: 1.3rem;
+        transition: transform .2s ease-in-out;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #000 !important;
+        font-weight: 600 !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125) !important;
+    }
+
+    .accordion-button {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+    }
+
+    /*Learn Page*/
+    .banner-header-learn-text {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        line-height: 1.5rem;
+    }
+
+    .banner-header-learn-text:first-child {
+        margin-top: 4rem !important;
+    }
+
+    .learn-search {
+        padding: .5rem 2rem !important;
+        border: 1px solid #000 !important;
+        margin-bottom: 5rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .learn-search::placeholder {
+        color: #000 !important;
+    }
+
+    .pagination {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: none !important;
+    }
+
+    .learn-pagination {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+        background-color: #FFF !important;
+        margin-right: .5rem !important;
+        font-weight: 600;
+    }
+
+    .learn-pagination:hover {
+        background-color: #007BFF !important;
+        color: #FFF !important;
+        border: none !important;
+    }
+
+    .GotIdea-text {
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+        color: #FFF !important;
+    }
+
+    .GotIdea-button {
+        font-size: 1rem !important;
+        padding: .5rem 1.5rem !important;
+        margin-top: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+    }
+
+    .image-size {
+        width: 10rem !important;
+    }
+
+    .home-video {
+        padding: 1rem !important;
+    }
+
+    .btn-arrow {
+        display: none !important;
+    }
+
+    .GotIdea {
+        padding: 2rem !important;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    .vidoe-responsive{
+        margin-top: 2rem !important;
+    }
+
+    .service-section {
+        flex: 1 0 calc(100% - 20px);
+        margin: 1rem .7rem;
+        padding: 2rem 2rem;
+        box-sizing: border-box;
+        transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+              opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+
+      .chit-chat{
+        font-size: 3.3rem !important;
+        line-height: 4rem !important;
+      }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 120px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+
+    .banner-header-text {
+        font-size: 2.7rem !important;
+        font-weight: 900;
+        line-height: 1.5rem !important;
+    }
+
+    .home .mt-3 {
+        margin-top: 2rem !important;
+    }
+
+    .header-para {
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-video {
+        width: 400px;
+        height: 230px;
+        margin-top: 2rem !important;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: .8rem !important;
+        cursor: pointer;
+        padding: .5rem .7rem !important;
+    }
+
+    .button-container-margin {
+        margin-top: 3rem !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        width: 120px !important;
+    }
+
+    .btn-primary {
+        width: 120px !important;
+    }
+
+    .volume-toggle {
+        position: absolute;
+        top: 45px;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 15px;
+        z-index: 1;
+    }
+
+    /* About Us */
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 15% 15% !important;
+    }
+
+    .about-us h5 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .about-us hr {
+        border: 0.05rem solid white;
+        opacity: .5;
+    }
+
+    .about-us .about-bold-text {
+        font-size: 1.5rem !important;
+        text-align: start;
+    }
+
+    .about-us .about-light-text {
+        font-size: 1rem !important;
+        text-align: justify;
+    }
+
+    .btn-about-us {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-top: 2rem !important;
+    }
+
+    /*-Feautered Images-*/
+    .featured-work-img {
+        border-radius: 1rem !important;
+    }
+
+    .featured-section {
+        margin: 0 1rem !important;
+    }
+
+    .featured-section h1 {
+        text-align: center;
+    }
+
+    .featured-section .featured-all-projects a{
+        font-size: .8rem !important;
+    }
+
+    /*-B2B and B2C Videos-*/
+    .about-us .B2B-bold-text {
+        font-size: 2rem !important;
+        text-align: start !important;
+    }
+
+    .B2B-text {
+        font-size: 1.3rem !important;
+    }
+
+    .btn-know-more {
+        font-size: 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .B2B-margin-top .btn-primary{
+        width: 190px !important;
+    }
+
+    .B2B-margin-top {
+        margin-top: 2rem !important;
+    }
+
+    .btn-see-more{
+        font-size: .8rem !important;
+    }
+
+    /*-Who We Helped Explain-*/
+    .helped-margin {
+        margin-bottom: 3rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .slick-slide {
+        margin: 0 .8rem;
+    }
+
+    .helped-text {
+        font-size: 1.5rem !important;
+        text-align: center !important;
+    }
+
+    .container-padding-helped {
+        padding: 0 2rem !important;
+    }
+
+    /*-Learn-*/
+    .learn-text {
+        margin-top: 1rem;
+        font-size: .8rem !important;
+        font-weight: 500;
+    }
+
+    .learn-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    /* What they say about us */
+    .comments-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+    }
+
+    .comments-text {
+        font-size: 1.2rem !important;
+    }
+
+    .arrow-btns .btn-primary{
+        width: 50px !important;
+    }
+
+    .B-I-img .col-md-9{
+        width: 100% !important;
+    }
+
+    .B-I-img .col-md-3{
+        display: none !important;
+    }
+
+    /*footer*/
+    .footer-head {
+        font-size: 1.6rem !important;
+        font-weight: 900 !important;
+    }
+
+    .footer-address {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-para {
+        font-family: 'Urbanist', sans-serif !important;
+        font-size: .9rem !important;
+        font-weight: 600 !important;
+    }
+
+    .footer-margin-section-2 {
+        margin-bottom: 1rem !important;
+    }
+
+    .footer-margin-section-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .footer-margin-section-3-first {
+        margin-top: 2.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .footer-link-hover:hover {
+        color: #007BFF;
+    }
+
+    .last-footer-section {
+        margin-top: 5rem !important;
+    }
+
+    .footer-link {
+        color: #000;
+    }
+
+    .footer-hr {
+        display: none;
+    }
+
+    /* About Us Page  */
+    .banner-header-about-text {
+        font-size: 2.7rem !important;
+        font-weight: 900 !important;
+        line-height: 2rem !important;
+    }
+
+    .who-we-are-head {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .who-we-are-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .who-we-are-para-2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .who-we-are-para-img {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .what-motivates-our-actions-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    .what-motivates-our-actions-para-2 {
+        margin-top: 2rem;
+        font-size: .98rem !important;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-left: .5rem !important;
+    }
+
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 3rem 3rem !important;
+    }
+
+    .chit-chat {
+        color: #FFF;
+        font-weight: 900;
+        font-size: 2rem !important;
+        line-height: 3rem;
+    }
+
+    .accordion-margin {
+        margin-top: 3rem !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../images/minus.png) !important;
+        transform: rotate(-180deg);
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: auto;
+        content: "";
+        background-image: url(../images/plus.png) !important;
+        background-repeat: no-repeat;
+        background-size: 1.3rem;
+        transition: transform .2s ease-in-out;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #000 !important;
+        font-weight: 600 !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125) !important;
+    }
+
+    .accordion-button {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+    }
+
+    /*Learn Page*/
+    .banner-header-learn-text {
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+        line-height: 1.5rem;
+    }
+
+    .banner-header-learn-text:first-child {
+        margin-top: 4rem !important;
+    }
+
+    .learn-search {
+        padding: .5rem 2rem !important;
+        border: 1px solid #000 !important;
+        margin-bottom: 5rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .learn-search::placeholder {
+        color: #000 !important;
+    }
+
+    .pagination {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learn-pagination {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+        background-color: #FFF !important;
+        margin-right: .5rem !important;
+        font-weight: 600;
+    }
+
+    .learn-pagination:hover {
+        background-color: #007BFF !important;
+        color: #FFF !important;
+        border: none !important;
+    }
+
+    .GotIdea-text {
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+        color: #FFF !important;
+    }
+
+    .GotIdea-button {
+        font-size: 1rem !important;
+        padding: .5rem 1.5rem !important;
+        margin-top: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+    }
+
+    .image-size {
+        width: 10rem !important;
+    }
+
+    .home-video {
+        padding: 1rem !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1023px) {
+    header {
+        padding: 0 30px;
+    }
+
+    /*NavBar*/
+    header nav ul li a {
+        display: inline-block;
+        color: #000;
+        margin: 0 20px;
+        border: 3px solid transparent;
+        transition: 0.2s;
+        font-weight: 600;
+        font-size: .8rem !important;
+        padding: .5rem .5rem;
+    }
+
+    /*Home*/
+    .banner-header-text {
+        font-size: 3rem !important;
+        font-weight: 900;
+        line-height: 2rem !important;
+    }
+
+    .header-para {
+        font-size: 2.5rem !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-video {
+        width: 520px !important;
+        height: 300px !important;
+    }
+
+    .button-container {
+        display: flex;
+    }
+
+    .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5rem !important;
+        cursor: pointer;
+        padding: .7rem 2rem !important;
+    }
+
+    .button-container-margin {
+        margin-top: 3rem !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        width: 140px !important;
+    }
+
+    .volume-toggle {
+        position: absolute;
+        top: 25px;
+        right: 25px !important;
+        width: 30px;
+        height: 30px;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    /*-Who We Helped Explain-*/
+    .helped-margin {
+        margin-bottom: 3rem !important;
+        margin-top: 5rem !important;
+    }
+
+    .slick-slide {
+        margin: 0 1rem;
+    }
+
+    .helped-text {
+        font-size: 1.2rem !important;
+        text-align: center !important;
+    }
+
+    /*-Learn-*/
+    .learn-text {
+        margin-top: 1rem;
+        font-size: 1.2rem !important;
+        font-weight: 500;
+    }
+
+    .learn-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container-padding-helped {
+        padding: 0 2rem !important;
+    }
+
+    /* What they say about us */
+    .comments-text-bold {
+        font-size: 2rem !important;
+        font-weight: 900;
+    }
+
+    .comments-text {
+        font-size: 1.5rem !important;
+    }
+
+    /* Social Media Styles */
+    .social-text {
+        font-size: 1.5rem !important;
+        font-weight: 900 !important;
+        line-height: 2.5rem !important;
+        color: #FFF !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .mobile-top-margin {
+        margin-top: 5rem;
+    }
+
+    /*footer*/
+    .footer-head {
+        font-size: 1.6rem !important;
+        font-weight: 900 !important;
+    }
+
+    .footer-address {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-para {
+        font-family: 'Urbanist', sans-serif !important;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+    }
+
+    .footer-margin-section-2 {
+        margin-bottom: 1.2rem !important;
+    }
+
+    .footer-margin-section-3 {
+        margin-bottom: 1.2rem !important;
+    }
+
+    .footer-margin-section-3-first {
+        margin-top: 2.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .footer-link-hover:hover {
+        color: #007BFF;
+    }
+
+    .last-footer-section {
+        margin-top: 5rem !important;
+    }
+
+    .footer-link {
+        color: #000;
+    }
+
+    .footer-hr {
+        display: none;
+    }
+
+    /* About Us Page  */
+    .banner-header-about-text {
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 3rem;
+    }
+
+    .who-we-are-head {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .who-we-are-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .who-we-are-para-2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .who-we-are-para-img {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .what-motivates-our-actions-para-1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    .what-motivates-our-actions-para-2 {
+        margin-top: 2rem;
+        font-size: .99rem;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+
+    .about-us {
+        background-color: #191E28;
+        border-radius: 1rem;
+        padding: 3rem 3rem !important;
+    }
+
+    .chit-chat {
+        color: #FFF;
+        font-weight: 900;
+        font-size: 2rem !important;
+        line-height: 3rem;
+    }
+
+    .accordion-margin {
+        margin-top: 3rem !important;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../images/minus.png) !important;
+        transform: rotate(-180deg);
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: auto;
+        content: "";
+        background-image: url(../images/plus.png) !important;
+        background-repeat: no-repeat;
+        background-size: 1.3rem;
+        transition: transform .2s ease-in-out;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #000 !important;
+        font-weight: 600 !important;
+        background-color: hsl(0, 0%, 100%) !important;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125) !important;
+    }
+
+    .accordion-button {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+    }
+
+    /*Learn Page*/
+    .banner-header-learn-text {
+        font-size: 2.8rem !important;
+        font-weight: 900 !important;
+        line-height: 2.5rem;
+    }
+
+    .banner-header-learn-text:first-child {
+        margin-top: 1rem !important;
+    }
+
+    .learn-search {
+        padding: .5rem 2rem !important;
+        border: 1px solid #000 !important;
+        margin-bottom: 5rem !important;
+    }
+
+    .learn-search::placeholder {
+        color: #000 !important;
+    }
+
+    .pagination {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .learn-pagination {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+        background-color: #FFF !important;
+        margin-right: .5rem !important;
+        font-weight: 600;
+    }
+
+    .learn-pagination:hover {
+        background-color: #007BFF !important;
+        color: #FFF !important;
+        border: none !important;
+    }
+
+    .GotIdea-text {
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+        color: #FFF !important;
+    }
+
+    .GotIdea-button {
+        font-size: 1.3rem !important;
+        padding: .5rem 2rem !important;
+        margin-top: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .image-size {
+        width: 9rem !important;
+    }
+
+    .arrow-btns .btn-primary{
+        width: 55px !important;
+    }
+}

@@ -484,19 +484,11 @@
         padding: 0rem 1rem 2.5rem 1rem !important;
       }
 
-<<<<<<< HEAD
-=======
-      .featured-work-videos-padding:nth-child(){
-        padding: 2rem 1rem 2.5rem 1rem !important;
-      }
-
->>>>>>> 0d3aef5880b7d0d089f47eceaf941f90f89417b0
       .hero-featured-video{
         width: 100%;
         height: 590px;
         border-radius: 1rem;
       }
-<<<<<<< HEAD
 
       .featured-all-projects .btn{
         font-size: 1.8rem !important;
@@ -552,6 +544,4 @@
     .btn-submit{
         font-size: 1.5rem !important;
     }
-=======
->>>>>>> 0d3aef5880b7d0d089f47eceaf941f90f89417b0
 }
